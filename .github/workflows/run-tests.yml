@@ -1,4 +1,4 @@
-name: ci
+name: run-tests
 on: [push]
 jobs:
   run-tests:
@@ -13,4 +13,4 @@ jobs:
         with:
           node-version: ${{matrix.node-version}}
       - run: npm install
-      - run: npm test
+      - run: npm run test
