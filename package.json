@@ -1,0 +1,24 @@
+{
+  "name": "ci-github-actions-nodejs-practice",
+  "version": "1.0.0",
+  "description": "Projeto para iniciar nas práticas de CI com GitHub Actions",
+  "main": "index.js",
+  "scripts": {
+    "commit": "cz",
+    "test": "jest"
+  },
+  "author": "Guilherme Barra Orsi",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "cz-conventional-changelog": "^3.3.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.4"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
