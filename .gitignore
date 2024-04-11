@@ -128,3 +128,9 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# XML files
+*.xml
+
+# InteliJ Idea folder
+/.idea
