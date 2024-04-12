@@ -1,12 +1,17 @@
 {
   "compilerOptions": {
-    "baseUrl": ".",
+    "allowJs": true,
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "ESNext",
+    "isolatedModules": true,
+    "lib": ["es2022"],
+    "module": "CommonJS",
     "moduleResolution": "Node",
+    "noUncheckedIndexedAccess": true,
+    "outDir": "dist",
+    "resolveJsonModule": true,
     "skipLibCheck": true,
+    "sourceMap": true,
     "strict": true,
-    "target": "ESNext"
+    "target": "es2022"
   }
 }
