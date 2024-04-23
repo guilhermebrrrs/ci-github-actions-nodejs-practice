@@ -1,11 +1,9 @@
-FROM node:alpine
+FROM mcr.microsoft.com/devcontainers/typescript-node:18
 
 WORKDIR /app
 
 COPY . .
 
-RUN npm install -g typescript tsc
-
-RUN npm run build && npm install
+RUN npm run build
 
 ENTRYPOINT [ "npm", "run", "dev:node" ]
