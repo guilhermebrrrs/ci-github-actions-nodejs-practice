@@ -1,22 +1,19 @@
 name: run-tests
 
 on:
-  pull_request:
-    branches:
+  push:
+    branches-ignore:
       - development
       - main
 
 jobs:
   run-tests:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        node-version: [14.x, 16.x, 18.x]
     steps:
       - uses: actions/checkout@v4
-      - name: Use NodeJS V${{matrix.node-version}}
+      - name: Use NodeJS V18.x
         uses: actions/setup-node@v4
         with:
-          node-version: ${{matrix.node-version}}
+          node-version: 18.x
       - run: npm install
       - run: npm run tests
