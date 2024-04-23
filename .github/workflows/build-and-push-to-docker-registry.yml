@@ -1,4 +1,4 @@
-name: build-then-push-to-docker-registry
+name: build-and-push-to-docker-registry
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - development
 
 jobs:
-  prepare-environment:
+  build-and-push:
     runs-on: ubuntu-latest
     steps:
       - name: Set up QEMU
