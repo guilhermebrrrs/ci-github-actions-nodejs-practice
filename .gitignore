@@ -133,8 +133,8 @@ dist
 *.xml
 
 # InteliJ Idea folder
-/.idea
+.idea/
 
-/.scannerwork
+.scannerwork/
 
 *.iml
