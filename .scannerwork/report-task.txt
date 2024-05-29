@@ -1,6 +1,0 @@
-projectKey=ci-github-actions-nodejs-practice
-serverUrl=http://localhost:9000
-serverVersion=9.9.5.90363
-dashboardUrl=http://localhost:9000/dashboard?id=ci-github-actions-nodejs-practice
-ceTaskId=AY_F5YuiY299Ibcv689W
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AY_F5YuiY299Ibcv689W
