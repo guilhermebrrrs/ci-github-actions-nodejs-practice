@@ -1,4 +1,4 @@
-import { dividir, multiplicar, somar, subtrair } from "./functions";
+import { dividir, multiplicar, somar, subtrair } from "./utils/functions";
 
 const a = 10;
 
